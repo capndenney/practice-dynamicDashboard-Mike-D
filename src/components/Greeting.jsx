@@ -1,5 +1,8 @@
+import sampleUser from "../sampleData/sampleUser"
+
+
 const Greeting = () => {
-    const userName = "Mr. Grinch"
+    const userName = sampleUser.Salutation + " " + sampleUser.LastName
 
     return <h1 className="greeting">Hello, {userName}!</h1>
 }
