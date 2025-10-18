@@ -3,6 +3,7 @@ import DynamicDashboard from './components/DynamicDashboard'
 import Greeting from './components/Greeting'
 import Header from './components/Header'
 import Premium from './components/Premium'
+import TaskCount from './components/TaskCount'
 
 function App() {
  
@@ -13,6 +14,7 @@ function App() {
         <Greeting />
         <DynamicDashboard />
         <Premium />
+        <TaskCount />
       </div>
     </>
   )
